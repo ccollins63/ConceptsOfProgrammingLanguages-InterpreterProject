@@ -1,0 +1,11 @@
+FUNCTION SQUARE : INT
+VAR_INPUT
+ value := 12 ;
+END_VAR
+BEGIN
+IF value <= 181 THEN
+ SQUARE := value * value ;
+ELSE
+ SQUARE := 32767 ;
+END_IF ;
+END_FUNCTION 
